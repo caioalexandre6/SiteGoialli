@@ -118,3 +118,15 @@ hr {
     margin-top: 3%;
     margin-bottom: 3%;
 }
+
+.sastable #head th {
+    background-color: #D5D5D5;
+}
+
+.sastable td {
+    background-color: #FFFFFF;
+}
+
+.sastable th {
+    background-color: #FFFFFF;
+}

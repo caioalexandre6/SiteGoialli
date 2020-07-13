@@ -16,7 +16,7 @@
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
     <link href="css/css.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 
@@ -57,11 +57,11 @@
                 Empresa
               </a>
                         <div class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">A Empresa</a>
-                            <a class="dropdown-item" href="#">História</a>
-                            <a class="dropdown-item" href="#">Missão e Visão</a>
+                            <a class="dropdown-item" href="aempresa.html#empresa">A Empresa</a>
+                            <a class="dropdown-item" href="aempresa.html#historia">História</a>
+                            <a class="dropdown-item" href="aempresa.html#visao">Missão e Visão</a>
                             <div class="dropdown-divider" style="background-color: rgb(255, 0, 0);"></div>
-                            <a class="dropdown-item" href="#">Estrutura e Tecnologia</a>
+                            <a class="dropdown-item" href="aempresa.html#estruturatecnologia">Estrutura e Tecnologia</a>
                         </div>
                     </li>
 
@@ -75,7 +75,7 @@
     </div>
     <div class="container text-muted conheca">
         <a>
-            <h1>Conheça Nossos Novos Produtos</h1>
+            <h1 class="display-4 texto">Conheça Nossos Novos Produtos</h1>
         </a>
     </div>
     <hr>
@@ -85,87 +85,170 @@
         </a>
     </div>
     <div style="background-color: rgb(38, 184, 101);">
-        <div class="card-deck container-fluid top">
-            <div class="card box topcard border border-danger">
-                <img src="assets/molhoingles.png" class="card-img" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Molho tipo Inglês</h5>
-                    <p class="card-text">Molho tipo inglês é um codimento líquido fermentado, amplamente usado na culinária inglesa. É considerado um intesificador de sabor, utilizado em vários pratos, tanto cozidos como crus.</p>
-                </div>
-                <div class="card-footer">
-
-                    <a tabindex="0" class="btn btn-md btn-success" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Saiba Mais</a>
-
-                </div>
-            </div>
-            <div class="card box topcard  border border-danger">
-                <img src="assets/molhodealho.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Molho de Alho</h5>
-                    <p class="card-text">Molho de alho é um produto à base de alho, que é uma planta de cheiro forte característico, espontânea ou de cultura, muito ultilizada como codimento ou em produtos medicinais.</p>
-                </div>
-                <div class="card-footer">
-                    <a class="btn btn-md btn-success" role="button" data-toggle="popover" data-img="http://placehold.it/400x200">Saiba Mais</a>
+        <div class="row row-cols-1 row-cols-sm-6 container-fluid center">
+            <div class="col mb-4 box p-2">
+                <div class="card h-100">
+                    <img src="assets/molhoingles.png" class="card-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Molho tipo Inglês</h5>
+                        <p class="card-text">Molho tipo inglês é um codimento líquido fermentado, amplamente usado na culinária inglesa. É considerado um intesificador de sabor, utilizado em vários pratos, tanto cozidos como crus.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-outline-success position">Saiba Mais</button>
+                    </div>
                 </div>
             </div>
-            <div class="card box topcard  border border-danger">
-                <img src="assets/molhoshoyu.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Molho shoyu</h5>
-                    <p class="card-text">Molho shoyu é um molho fabricado a partir de uma mistura de soja, cereal torrado, água e sal, fermentando-os com microrganismo.</p>
-                </div>
-                <div class="card-footer">
-
-                    <a tabindex="0" class="btn btn-md btn-success" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Saiba Mais</a>
-
+            <div class="col mb-4 box  p-2">
+                <div class="card h-100">
+                    <img src="assets/molhodealho.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Molho de Alho</h5>
+                        <p class="card-text">Molho de alho é um produto à base de alho, que é uma planta de cheiro forte característico, espontânea ou de cultura, muito ultilizada como codimento ou em produtos medicinais.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-outline-success position">Saiba Mais</button>
+                    </div>
                 </div>
             </div>
-
-            <div class="card box topcard  border border-danger">
-                <img src="assets/molhopimentaextra.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Molho de Pimenta Extra Forte</h5>
-                    <p class="card-text">O molho de pimenta é elaborado a partir de uma seleção de pimentas malaguetas, que juntas são responsáveis pelo sabor e ardência característica do molho.</p>
+            <div class="col mb-4 box  p-2">
+                <div class="card h-100">
+                    <img src="assets/molhoshoyu.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Molho shoyu</h5>
+                        <p class="card-text">Molho shoyu é um molho fabricado a partir de uma mistura de soja, cereal torrado, água e sal, fermentando-os com microrganismo.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-outline-success position">Saiba Mais</button>
+                    </div>
                 </div>
-                <div class="card-footer">
+            </div>
+            <div class="col mb-4 box p-2">
+                <div class="card h-100">
+                    <img src="assets/molhopimentaextra.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Molho de Pimenta Extra Forte</h6>
+                        <p class="card-text">O molho de pimenta é um molho à base de pimentas, que é o nome comum dado a várias plantas, seus frutos e codimentos deles obtidos, de sabor geralmente picante.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-outline-success position">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4 box p-2">
+                <div class="card h-100">
+                    <img src="assets/molhopimentacremosa.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Molho de Pimenta Extra Forte</h6>
+                        <p class="card-text">O molho de pimenta cremoso é elaborado a partir de uma seleção de pimentas malaguetas, que juntas são responsáveis pelo sabor e ardência característica do molho.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-outline-success position">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4 box p-2">
+                <div class="card h-100">
+                    <img src="assets/pimentachiplote.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Molho de Pimenta Extra Forte</h6>
+                        <p class="card-text">O molho de pimenta chiplote pelo é lembrado pelo seu sabor, aroma e textura, o molho tem a consistência cremosa além de ser um tempero diferenciado para as carnes de churrasco.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-outline-success position">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                    <a tabindex="0" class="btn btn-md btn-success" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Saiba Mais</a>
-
+    </div>
+    <hr>
+    <div class="container-fluid top">
+        <a>
+            <h2 class="text-danger">Maioneses</h2>
+        </a>
+    </div>
+    <div style="background-color: rgb(38, 184, 101);">
+        <div class="row row-cols-1 row-cols-md-4 container-fluid center">
+            <div class="col mb-4 box p-2">
+                <div class="card h-100">
+                    <img src="assets/maionesepicante.png" class="card-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Maionese Picante</h5>
+                        <p class="card-text">Maionese Picante é uma emulsão cremosa obtida com ovos e óleos vegetais, adicionada de condimentos e pimentas.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-outline-success position">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4 box  p-2">
+                <div class="card h-100">
+                    <img src="assets/maionesecaipira.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Maionese Caipira</h5>
+                        <p class="card-text">Maionese Caipira é uma emulsão cremosa obtida com ovos e óleos vegetais, adicionada de condimentos e ovos caipira.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-outline-success position">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4 box  p-2">
+                <div class="card h-100">
+                    <img src="assets/maionesecomervas.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Maionese com Ervas Finas </h5>
+                        <p class="card-text"> Maionese com Ervas Finas é uma emulsão cremosa obtida com ovos e óleos vegetais, adicionada de condimentos e ervas finas</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-outline-success position">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4 box p-2">
+                <div class="card h-100">
+                    <img src="assets/maionesepouch.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Maionese Caipira Pouch</h5>
+                        <p class="card-text">Maionese com ovos caipira pouch é uma emulsão cremosa obtida com ovos e óleos vegetais, adicionada de condimentos e ovos caipira</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-outline-success position">Saiba Mais</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-
-    <footer class="footer">
-        <div class="mt-5 pt-5 pb-5" class="footer">
-            <div class="container">
-                <a class="footerbar-brand" href="index.html">
-                    <img src="assets/goiallilogorodape2.png" width="145" height="55" alt="">
+    <footer class="footer ">
+        <div class="mt-5 pt-5 pb-5 " class="footer ">
+            <div class="container ">
+                <a class="footerbar-brand " href="index.html ">
+                    <img src="assets/goiallilogorodape2.png " width="145 " height="55 " alt=" ">
                 </a>
             </div>
-            <div class="container cor">
-                <div class="row">
-                    <div class="col-lg-4 col-xs-12 cor">
-                        <div class="vertical-line" class="text-muted"></div>
-                        <h2 class="mt-lg-5 mt-sm-3" class="texto" class="text-muted">Produtos</h2>
+            <div class="container cor ">
+                <div class="row ">
+                    <div class="col-lg-4 col-xs-12 cor ">
+                        <div class="vertical-line " class="text-muted "></div>
+                        <h2 class="mt-lg-5 mt-sm-3 " class="texto " class="text-muted ">Produtos</h2>
 
-                        <p> <a class="link" href="# ">Extratos</a></p>
-                        <p> <a class="link" href="# ">Codimentos</a></p>
-                        <p> <a class="link" href="# ">Molhos </a></p>
-                        <p> <a class="link" href="# ">Molhos Especiais</a></p>
-                        <p> <a class="link" href="# ">Maionese</a></p>
+                        <p> <a class="link " href="# ">Extratos</a></p>
+                        <p> <a class="link " href="# ">Codimentos</a></p>
+                        <p> <a class="link " href="# ">Molhos </a></p>
+                        <p> <a class="link " href="# ">Molhos Especiais</a></p>
+                        <p> <a class="link " href="# ">Maionese</a></p>
                     </div>
                     <div class="col-lg-4 col-xs-12 cor ">
-                        <div class="vertical-line" class="text-muted"></div>
+                        <div class="vertical-line " class="text-muted "></div>
                         <h2 class="mt-lg-5 mt-sm-3 " class="texto " class="text-muted ">Navegação</h2>
 
 
-                        <p> <a class="link" href="index.html">Home</a></p>
-                        <p> <a class="link" href="# ">Empresa</a></p>
-                        <p> <a class="link" href="produtos.html">Produtos</a></p>
-                        <p> <a class="link" href="# ">Receitas</a></p>
-                        <p> <a class="link" href="# ">Seja Um Parceiro</a></p>
+                        <p> <a class="link " href="index.html ">Home</a></p>
+                        <p> <a class="link " href="aempresa.html">Empresa</a></p>
+                        <p> <a class="link " href="produtos.html ">Produtos</a></p>
+                        <p> <a class="link " href="# ">Receitas</a></p>
+                        <p> <a class="link " href="# ">Seja Um Parceiro</a></p>
                     </div>
                     <div class="col-lg-4 col-xs-12 cor ">
                         <h2 class="mt-lg-5 mt-sm-3 " class="texto " class="text-muted ">
@@ -176,20 +259,20 @@
                         <p class="mb-0 "><i class="fa fa-phone mr-3 "></i>0800 6469909</p>
                         <p><i class="fa fa-envelope-o mr-3 "></i>sac@goialli.com.br</p>
                         <div>
-                            <a class="socialicon" href="#">
-                                <img src="assets/intagramicon.png" alt="">
+                            <a class="socialicon " href="# ">
+                                <img src="assets/intagramicon.png " alt=" ">
                             </a>
-                            <a class="socialicon" href="#">
-                                <img src="assets/facebookicon.png" alt="">
+                            <a class="socialicon " href="# ">
+                                <img src="assets/facebookicon.png " alt=" ">
                             </a>
-                            <a class="socialicon" href="#">
-                                <img src="assets/gmailicon.png" alt="">
+                            <a class="socialicon " href="# ">
+                                <img src="assets/gmailicon.png " alt=" ">
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container" class="row mt-5 ">
+            <div class="container " class="row mt-5 ">
                 <div class="col copyright ">
                     <p class=" "><small class="text-white-50 ">© 2020. Todos Os Direitos Reservados.</small>
                         <small class="text-white-50 ">Mauro Otoni e Caio Alexandre</small>
